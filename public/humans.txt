@@ -1,0 +1,14 @@
+/* TEAM */
+Your title: d4ki
+Site: dakimasuu@gmail.com
+Twitter: d4kimasu
+Location: Czech Republic
+
+/* THANKS */
+Name: https://www.w3schools.com/
+
+/* SITE */
+Last update: 2024/10/10
+Standards: HTML5, CSS3
+Components: Vite, React
+Software: Visual Studio Code, Git
