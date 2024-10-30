@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div id="App">
-      <h1>Hewwo :3c</h1>
+      <h1>:3</h1>
     </div>
   );
 }
