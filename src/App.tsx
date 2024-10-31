@@ -1,11 +1,15 @@
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+
+import Layout from "./Layout";
+import NoMatch from "./NoMatch";
 
 function App() {
-
   return (
-    <div id="App">
-      <h1>:3</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route path="*" element={<NoMatch />} />
+      </Route>
+    </Routes>
   );
 }
 
