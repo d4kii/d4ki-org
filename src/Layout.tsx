@@ -1,11 +1,11 @@
-
-import { Outlet } from "react-router-dom";
 import "./styles/Layout.css";
+
+import ProfilePicture from "./assets/SherlockHound.jpg"
 
 function Layout() {
   return (
     <div id="Layout">
-      <Outlet />
+      <img width="200" src={ ProfilePicture }></img>
     </div>
   );
 }
