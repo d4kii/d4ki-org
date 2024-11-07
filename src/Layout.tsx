@@ -5,13 +5,13 @@ function Layout() {
   return (
     <>
       <div id="Layout">
-        <div>
+        <div className="link">
           <Link to="/">Home</Link>
         </div>
-        <div>
+        <div className="link">
           <Link to="blog">Blog</Link>
         </div>
-        <div>
+        <div className="link">
           <Link to="projects">Projects</Link>
         </div>
       </div>
