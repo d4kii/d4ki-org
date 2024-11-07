@@ -1,12 +1,23 @@
 import "./styles/Layout.css";
+import { Link, Outlet } from "react-router-dom";
 
-import ProfilePicture from "./assets/SherlockHound.jpg"
 
 function Layout() {
   return (
-    <div id="Layout">
-      <img width="200" src={ ProfilePicture }></img>
-    </div>
+    <>
+      <nav>
+        <div>
+          <Link to="/">Home</Link>
+        </div>
+        <div>
+          <Link to="blog">Blog</Link>
+        </div>
+        <div>
+          <Link to="projects">Projects</Link>
+        </div>
+      </nav>
+      <Outlet />
+    </>
   );
 }
 

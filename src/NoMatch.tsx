@@ -4,9 +4,9 @@ import "./styles/NoMatch.css";
 
 import FlavorText from "./assets/FlavorText.json";
 
-function FourZeroFour() {
+function NoMatch() {
   return (
-    <div id="FourZeroFour">
+    <div id="NoMatch">
       <h1>What are you doing here?!?</h1>
       <em>{FlavorText[Math.floor(Math.random() * FlavorText.length)]}</em>
       <p>
@@ -18,4 +18,4 @@ function FourZeroFour() {
   );
 }
 
-export default FourZeroFour;
+export default NoMatch;
