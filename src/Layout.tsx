@@ -1,21 +1,20 @@
 import "./styles/Layout.css";
 import { Link, Outlet } from "react-router-dom";
 
-
 function Layout() {
   return (
     <>
-      <nav>
-        <div>
+      <div id="Layout">
+        <div className="link">
           <Link to="/">Home</Link>
         </div>
-        <div>
+        <div className="link">
           <Link to="blog">Blog</Link>
         </div>
-        <div>
+        <div className="link">
           <Link to="projects">Projects</Link>
         </div>
-      </nav>
+      </div>
       <Outlet />
     </>
   );

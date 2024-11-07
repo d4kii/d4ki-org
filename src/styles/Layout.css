@@ -1,4 +1,4 @@
-nav {
+#Layout {
   display: flex;
   justify-content: space-around;
   border-bottom: 2px solid #f1f1f1;
@@ -16,7 +16,7 @@ a {
   padding-right: 2px;
 }
 
-div {
+.link {
   width: 100%;
   border-right: 2px solid white;
 }

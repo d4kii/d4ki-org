@@ -11,7 +11,7 @@ function NoMatch() {
       <em>{FlavorText[Math.floor(Math.random() * FlavorText.length)]}</em>
       <p>
         <Link to="/">
-          <button>Go to the home page!!!!</button>
+          <button>GO BACK!!</button>
         </Link>
       </p>
     </div>
